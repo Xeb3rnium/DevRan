@@ -19,6 +19,7 @@ def rot47(msg):
 	print(msg.translate(str.maketrans("!\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~", "PQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~!\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNO")))
 
 
+
 if len(sys.argv) < 3 or len(sys.argv) > 3:
 	print("Usage: brute.py {dec|alpha|all} <ciphertext>")
 
