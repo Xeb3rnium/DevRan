@@ -21,7 +21,7 @@ def rot47(msg):
 
 
 if len(sys.argv) < 3 or len(sys.argv) > 3:
-	print("Usage: brute.py {dec|alpha|all} <ciphertext>")
+	print("Usage: brute.py (dec | alpha | all) <ciphertext>")
 
 else:
 	opt = ["dec","alpha","all"]
